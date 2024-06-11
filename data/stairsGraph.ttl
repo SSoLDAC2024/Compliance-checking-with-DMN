@@ -1,0 +1,16 @@
+@prefix inst: <http://example.org/myModel#> .
+@prefix ex: <http://example.org/myData#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+inst:stair1 a ex:stairs ;
+    ex:riserHeight "175" ;
+    ex:threadLength "240" ;
+    ex:numberOfRailings "2" ;
+    rdfs:label "Precast Stair:Stair:381758" .
+
+inst:stair2 a ex:stairs ;
+    ex:riserHeight "178" ;
+    ex:threadLength "240" ;
+    ex:numberOfRailings "2" ;
+    rdfs:label "Precast Stair:Stair:383689".
+
